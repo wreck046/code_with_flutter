@@ -14,7 +14,7 @@ import 'package:code_with_flutter/gradient_container.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const GradientContainer(Colors.accents));
+    await tester.pumpWidget(GradientContainer(Colors.accents));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
